@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-container{
+    width: 100%;
+    height: 1080px;
+    position: relative;
+}
+
+.img-background{
+    width: 100%;
+    height: auto;
+}
+
+#clock{
+    width: 100%;
+    position: absolute;
+    font-size: 10vw;
+    font-weight: bold;
+    color: #304345;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 9%;
+}
+
+#clock {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); /* Adds depth */
+}
